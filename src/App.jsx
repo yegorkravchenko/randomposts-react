@@ -10,6 +10,10 @@ function App() {
                 <Route exact path="/">
                     <Home />
                 </Route>
+                <Route>
+                    {/* TODO: create 404 page */}
+                    404 error
+                </Route>
             </Switch>
         </Router>
     );
