@@ -1,7 +1,8 @@
-import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { Home } from "./pages/Home";
+import { Home } from './pages/Home';
+import { Error404 } from './pages/Error404';
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
           <Home />
         </Route>
         <Route>
-          {/* TODO: create 404 page */}
-          404 error
+          <Error404 />
         </Route>
       </Switch>
     </Router>
