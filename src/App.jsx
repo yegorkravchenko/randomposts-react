@@ -1,22 +1,22 @@
-import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import { Home } from './pages/Home';
+import { Home } from "./pages/Home";
 
 function App() {
-    return (
-        <Router>
-            <Switch>
-                <Route exact path="/">
-                    <Home />
-                </Route>
-                <Route>
-                    {/* TODO: create 404 page */}
-                    404 error
-                </Route>
-            </Switch>
-        </Router>
-    );
+  return (
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route>
+          {/* TODO: create 404 page */}
+          404 error
+        </Route>
+      </Switch>
+    </Router>
+  );
 }
 
 export default App;

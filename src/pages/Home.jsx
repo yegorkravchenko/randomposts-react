@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { Header } from '../components/Header';
+import { Header } from "../components/Header";
 
 export function Home() {
-    return (
-        <>
-            <Header pageTitle="Home" />
-        </>
-    );
+  return (
+    <>
+      <Header pageTitle="Home" />
+    </>
+  );
 }
