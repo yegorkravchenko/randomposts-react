@@ -3,8 +3,8 @@ import { NavButton } from './NavButton';
 
 export function Header({ pageTitle }) {
   return (
-    <header className="w-screen py-3 border-b-2 border-gray-900">
-      <div className="w-9/12 mx-auto flex justify-between items-center">
+    <header className="w-screen">
+      <div className="max-w-6xl border-b py-7 w-9/12 mx-auto flex justify-between items-center">
         <h1 className="text-2xl text-gray-900 font-bold">{pageTitle}</h1>
         <nav>
           <ul>
