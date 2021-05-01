@@ -1,5 +1,5 @@
-import React from "react";
-import { NavButton } from "./NavButton";
+import React from 'react';
+import { NavButton } from './NavButton';
 
 export function Header({ pageTitle }) {
   return (
